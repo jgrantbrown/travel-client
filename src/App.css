@@ -1,0 +1,12 @@
+.NavBar{
+  display: flex;
+  flex-direction: row;
+  color: blue;
+}
+
+.MainContainer{
+  border: 1px solid #ccc;
+  height: 90vh;
+  text-align: center;
+  background: lightgrey;
+}

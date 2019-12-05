@@ -15,6 +15,7 @@ const Login = ({ loginFormData, updateLoginForm, login }) => {
     updateLoginForm(updatedFormInfo)
   }
 
+// HOw do we protect password from state visibility before submitting
   const handleSubmit = event =>{
     event.preventDefault()
     login(loginFormData)
